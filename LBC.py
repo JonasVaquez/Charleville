@@ -5,7 +5,7 @@ import random
 app = Flask(__name__)
 
 # Dossier contenant les images
-IMAGE_DIR = r'C:\Users\perru\Pictures\Screenshots'
+IMAGE_DIR = r'Charleville/26-03-2024'
 images = os.listdir(IMAGE_DIR)
 
 # Page d'accueil
